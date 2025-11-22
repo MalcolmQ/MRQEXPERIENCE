@@ -1,0 +1,318 @@
+* {
+    padding: 0;   
+    margin: 0;
+    text-decoration: none; 
+    box-sizing: border-box;
+   }
+   body {
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       background-color: black;
+   }
+   
+   nav {
+       background: black;
+       height: 80px;
+       width: 100%;
+   }
+   label.logo{
+       color: white;
+       font-size: 25px;
+       line-height: 80px;
+       padding: 0 100px;
+       font-weight: bold;
+   }
+   nav ul {
+       float: right;
+       margin-right: 25px;
+       list-style: none;
+   }
+   nav ul li {
+       display: inline-block;
+       line-height: 80px;
+       margin: 0 5px;
+   }
+   nav ul li a {
+       color: white;
+       font-size: 15px;
+       padding: 5px 10px;
+       border-radius: 4px;
+   }
+   
+   a.active, a:hover{
+       color: red;
+       transition: .5s;
+   }
+   .checkbtn{
+       font-size: 25px;
+       color: red;
+       float: right;
+       line-height: 80px;
+       margin-right: 40px;
+       margin-top: 10px;
+       cursor: pointer;
+       display: none;
+   }
+   #check{
+       display: none;
+   }
+   @media(max-width: 952){
+       label.logo{
+           font-size: 30px;
+           padding-left: 50px;
+       }
+       nav ul li a {
+           font-size: 16px;
+       }
+   }
+   
+   @media(max-width:858px){
+       .checkbtn{
+           display: block;
+       }
+       nav ul{
+           position: fixed;
+           width: 100%;
+           height: 100vh;
+           background: #132020;
+           top: 80px;
+           left: -100%;
+           text-align: center;
+           transition: all .5s;
+       }
+       nav ul li {
+           display: block;
+           margin: 50px 0;
+           line-height: 30px;
+       }
+       nav ul li a{
+           font-size: 20px;
+       }
+       a.hover, a.active{
+           background: none;
+           color: black;
+       }
+       #check:checked ~ ul {
+           left: 0;
+       }
+   }
+   
+   .res_button {
+       background-color: red;
+       border: red;
+   }
+   .Hero_pic{
+       border-radius: 50%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 250px;
+       height: 250px;
+      border: 10px groove red;
+      margin-top: 20px;
+   }
+   .Hero_name{
+       color: darkgray;
+       text-align: center;
+       margin-top: 20px;
+       font-size: 20px;
+       font-weight: bold;
+       text-transform: uppercase;
+   }
+   .Hero_title{
+       color: lightgray;
+       text-align: center;
+       margin-top: 10px;
+       font-size: 70px;
+       font-weight: bold;
+       text-transform: uppercase;
+   }
+   .Hero_subtitle{
+       color: whitesmoke;
+       margin-top: 50px;
+       font-size: 30px;
+       text-transform: uppercase;
+       text-align: center;
+   }
+   .content{
+       font-size: 20px;
+       color: red;
+   }
+   /*
+   .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+   }
+   
+   
+   @media (min-width: 475px){
+      .container{
+       max-width: 475px;
+      }
+   }
+   @media (min-width: 640px){
+       .container{
+           max-width: 640px;
+          }
+   }
+   @media (min-width: 768px){
+       .container{
+           max-width: 768px;
+          }
+   }
+   @media (min-width: 1024px){
+       .container{
+           max-width: 1024px;
+          }
+   }
+   @media (min-width: 1280px){
+       .container{
+           max-width: 1280px;
+          }
+   }
+   @media (min-width: 1536px){
+       .container{
+           max-width: 1536px;
+          }
+   }
+   */
+   .res_body{
+       background-color: black;
+       color: white;
+   }
+   .res_head{
+       font-size: 25px;
+       padding-top: 20px;
+       color: red;
+   }
+   .res_pic{
+       display: block;
+       width: 250px;
+       height: 250px;
+       margin-top: 20px;
+   }
+   /* Small screens (phones) */
+   @media (max-width: 480px) {
+     label.logo {
+       font-size: 0.8rem;
+     }
+     .logo{
+       margin-right: 1rem;
+       padding-top: 1rem;
+     }
+     .Hero_title{
+       font-size: 40px;
+     }
+       .Hero_subtitle{
+           font-size: 25px;
+       }
+   }
+   
+   .hero_text{
+       color: white;
+       font-size: 18px;
+       text-align: center;
+       margin: 10px;
+   
+   }
+   .icons{
+       display: block;
+       width: 150px;
+       height: auto;
+       margin-top: 20px;
+       margin-left: auto;
+       margin-right: auto;
+       border-color: red;
+   }
+   .icon_titles{
+       color: white;
+       text-align: center;
+       margin-top: 20px;
+       font-size: 20px;
+       font-weight: bold;
+       text-transform: uppercase;
+   }
+
+
+
+
+
+
+/* Resume content layout */
+.resume-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .resume-section h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .resume-section h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .resume-section p,
+  .resume-section li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+  }
+  
+  .resume-section ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  /* Mobile adjustments */
+  @media (max-width: 600px) {
+    .resume-section {
+      padding: 10px;
+    }
+  
+    .res_head {
+      font-size: 20px;
+    }
+  
+    .resume-section h2 {
+      font-size: 18px;
+    }
+  
+    .resume-section h3 {
+      font-size: 16px;
+    }
+  
+    .resume-section p,
+    .resume-section li {
+      font-size: 14px;
+    }
+  
+    nav ul li {
+      margin: 30px 0;
+    }
+  
+    nav ul li a {
+      font-size: 18px;
+    }
+  }
+  /* WHite Bullets replacement for unordered lists*/
+ul{
+    color: white; /* Makes bullets white */
+  }
+  
+ul li::marker{
+    color: white; /* Ensures bullet symbols are white */
+  }
+  /*CLass to centerize buttons */
+  .center-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
