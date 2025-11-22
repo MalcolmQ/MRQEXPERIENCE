@@ -111,7 +111,7 @@
       margin-top: 20px;
    }
    .Hero_name{
-       color: darkgray;
+       color: #FFFDD0;
        text-align: center;
        margin-top: 20px;
        font-size: 20px;
@@ -399,5 +399,6 @@ body.res_body {
       font-size: 1em;
     }
   }
+
 
 
