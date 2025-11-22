@@ -211,7 +211,7 @@
    }
    
    .hero_text{
-       color: white;
+       color: #DCDCDC;
        font-size: 18px;
        text-align: center;
        margin: 10px;
@@ -399,3 +399,4 @@ body.res_body {
       font-size: 1em;
     }
   }
+
