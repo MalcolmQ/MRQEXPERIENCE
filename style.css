@@ -450,3 +450,41 @@ body.res_body {
 
 }
 
+/* underconstruction preview box and progress bar */
+.preview-box {
+      border: 2px dashed #f582ae;
+      padding: 2rem;
+      border-radius: 8px;
+      background-color: #ffffffcc;
+      max-width: 500px;
+      align-items: center; 
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto; 
+      justify-content: center;
+}
+.progress-container {
+  width: 80%;
+  max-width: 500px;
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 1rem auto;
+  height: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #f582ae;
+  width: 0;
+  transition: width 1s ease-in-out;
+}
+
+.progress-label {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #001858;
+}
+
+
