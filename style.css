@@ -450,7 +450,7 @@ body.res_body {
 
 }
 
-/* underconstruction preview box and progress bar */
+/* underconstruction preview box and progress bar 
 .preview-box {
       border: 2px dashed #f582ae;
       padding: 2rem;
@@ -486,5 +486,78 @@ body.res_body {
   margin-top: 0.5rem;
   color: #001858;
 }
+*/
+/*Projects page display */
+.hero {
+  background: #1a1a1a;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.portfolio-section {
+  padding: 40px 20px;
+}
+
+h2.portfolio-section {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-info h3 {
+  margin-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #1a1a1a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1a1a1a;
+  color: white;
+  margin-top: 40px;
+}
+
+
 
 
