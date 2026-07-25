@@ -418,6 +418,15 @@ body.res_body {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
 }
+.service-box img {
+  transition: transform 0.3s ease;
+}
+
+.service-box:hover img {
+  transform: scale(1.1);
+}
+/* Services section end here */
+
 /* Mobile optimization */
 @media (max-width: 768px) {
   .services {
