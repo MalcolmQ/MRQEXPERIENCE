@@ -63,7 +63,7 @@
   width: 100%;
 }
 /*hero header */
-.hero {
+.hero-one {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -72,12 +72,12 @@
   color: white;
 }
 
-.hero h1 {
+.hero-one h1 {
   font-size: 3rem;
   font-weight: 700;
 }
 
-.hero p {
+.hero-one p {
   font-size: 1.2rem;
   opacity: 0.8;
 }
