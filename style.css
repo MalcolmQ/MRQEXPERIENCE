@@ -81,6 +81,29 @@
   font-size: 1.2rem;
   opacity: 0.8;
 }
+/* MOBILE OPTIMIZATION of my hero section */
+@media (max-width: 768px) {
+
+  .home-banner {
+    height: 220px;        /* shorter banner for phones */
+    object-fit: cover;    /* keeps the crop clean */
+  }
+
+  .hero-one {
+    top: 55%;             /* shifts text slightly lower */
+    padding: 0 20px;      /* prevents text from touching edges */
+  }
+
+  .hero-one h1 {
+    font-size: 1.8rem;    /* scales headline for mobile */
+    line-height: 1.2;
+  }
+
+  .hero-one p {
+    font-size: 1rem;      /* readable but not oversized */
+    margin-top: 8px;
+  }
+}
 /*ending of section design */
 .home-banner {
   width: 100%;
