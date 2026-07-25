@@ -62,6 +62,26 @@
 .sidenav a{
   width: 100%;
 }
+/*hero header */
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+/*ending of section design */
 @media(max-width: 800px){
   .menu-button{
     display: block;
